@@ -20,6 +20,8 @@ namespace LibreriaEmpleado.Models.Models.Derivada
 
         public string Legajo { get; set; }
 
+        public Departamento Departamento { get; set; }
+
        
         
     }
