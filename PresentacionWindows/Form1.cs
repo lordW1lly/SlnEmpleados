@@ -23,7 +23,7 @@ namespace PresentacionWindows
         private void bttnCargarDpto_Click(object sender, EventArgs e)
         {
             List<Empleado> empleados = new List<Empleado>();
-            Empleado emplado1 = new Empleado() { Nombre = "Pedro", Apellido = "Martinez", ID = "02221", Legajo = "PM001" };
+            Empleado emplado1 = new Empleado() { Nombre = "Pedro", Apellido = "Martinez", ID = "02221", Legajo = "PM001", };
             Empleado empleado2 = new Empleado() { Nombre = "Juan", Apellido = "Viera", Legajo = "JV001", ID = "0035" };
             Empleado empleado3 = new Empleado() { Nombre = "Paula", Apellido = "Roldan", ID = "JR001", Legajo = "00123" };
             empleados.Add(emplado1);
